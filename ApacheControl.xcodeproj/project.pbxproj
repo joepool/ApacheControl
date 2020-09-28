@@ -10,6 +10,8 @@
 		D84763A725212B30001B03BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84763A625212B30001B03BE /* AppDelegate.swift */; };
 		D84763A925212B31001B03BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D84763A825212B31001B03BE /* Assets.xcassets */; };
 		D84763AC25212B31001B03BE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D84763AA25212B31001B03BE /* MainMenu.xib */; };
+		D84763BA25214248001B03BE /* start.sh in Resources */ = {isa = PBXBuildFile; fileRef = D84763B925214243001B03BE /* start.sh */; };
+		D84763BE25214A49001B03BE /* stop.sh in Resources */ = {isa = PBXBuildFile; fileRef = D84763B625212F50001B03BE /* stop.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D84763AB25212B31001B03BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D84763AD25212B31001B03BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D84763AE25212B31001B03BE /* ApacheControl.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ApacheControl.entitlements; sourceTree = "<group>"; };
+		D84763B625212F50001B03BE /* stop.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = stop.sh; sourceTree = "<group>"; };
+		D84763B925214243001B03BE /* start.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = start.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +55,9 @@
 		D84763A525212B30001B03BE /* ApacheControl */ = {
 			isa = PBXGroup;
 			children = (
+				D84763B925214243001B03BE /* start.sh */,
 				D84763A625212B30001B03BE /* AppDelegate.swift */,
+				D84763B625212F50001B03BE /* stop.sh */,
 				D84763A825212B31001B03BE /* Assets.xcassets */,
 				D84763AA25212B31001B03BE /* MainMenu.xib */,
 				D84763AD25212B31001B03BE /* Info.plist */,
@@ -118,6 +124,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D84763A925212B31001B03BE /* Assets.xcassets in Resources */,
+				D84763BA25214248001B03BE /* start.sh in Resources */,
+				D84763BE25214A49001B03BE /* stop.sh in Resources */,
 				D84763AC25212B31001B03BE /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
